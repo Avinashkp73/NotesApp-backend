@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteDown</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <h1>NoteDown</h1>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://www.linkedin.com/in/avinash-kumar-669131209/">About</a></li>
+            <li><a href="https://drive.google.com/file/d/1P6W1cG13rlrFVHYetIh5B47uC4vln5cy/view?usp=sharing">Resume</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h1>Notepad</h1>
+        <form id="noteForm">
+            <input type="text" placeholder="Note Title" required id="title">
+            <textarea name="content" id="content" placeholder="Content of the note"></textarea>
+            <button type="submit">Add Note</button>
+        </form>
+        <ul id="notesList"></ul>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
