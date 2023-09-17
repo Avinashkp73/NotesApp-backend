@@ -1,0 +1,17 @@
+{
+  "name": "note_down",
+  "version": "1.0.0",
+  "description": "A note Making Web app using NodeJS and MongoDb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Avinash Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2"
+  }
+}
