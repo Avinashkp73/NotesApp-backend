@@ -147,4 +147,18 @@ button:hover {
     color: white;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px; /* Add margin between menu items */
+    }
+}
