@@ -4,7 +4,7 @@
   "description": "A note Making Web app using NodeJS and MongoDb",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Avinash Kumar",
   "license": "ISC",
